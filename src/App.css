@@ -3,14 +3,8 @@
 }
 
 .App-logo {
+  animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -24,6 +18,14 @@
   color: white;
 }
 
+body{
+background-image: url('./landing_page/blur_bg_3.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +37,71 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.display-4 :hover {
+  cursor: pointer;
+  color: #EF397B;
+}
+
+
+.hero-content {
+    position: relative;
+    min-height: 400px;
+    background-image: url('./landing_page/girl_headphones.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.hero-title {
+    position: absolute;
+    top: 40%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    text-shadow: 1px 1px 0px rgb(58,23,63);
+}
+
+#volume-control {
+  display: inline-flex;
+
+}
+
+
+/*buttons*/
+.button-2 {
+  color: #fff;
+  border: 3px solid #282c34;
+  background-image: -webkit-linear-gradient(30deg, #282c34 50%, transparent 50%);
+  background-image: linear-gradient(30deg, #282c34 50%, transparent 50%);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+  margin-right: 1rem;
+  border-radius: 50px;
+}
+.button-2:hover {
+  background-position: 100%;
+  color: #EF397B;
+}
+
+
+/* mouse over link */
+.library-link-style {
+  color: white;
+}
+
+/* Library */
+.library {
+  
+  display: inline-flex;
 }
