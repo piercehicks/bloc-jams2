@@ -11,19 +11,6 @@ export default [{
         { title: 'Show me How', duration: '153.14', audioSrc: '/assets/music/men-i-trust/Men I Trust - Oncle Jazz - 15 Show Me How (album v).mp3' , songNum: '4'},
         { title: 'Tailwhip', duration: '374.22', audioSrc: '/assets/music/men-i-trust/Men I Trust - Oncle Jazz - 23 Tailwhip Revisited.mp3' , songNum: '5'}
     ]
-  },{
-    title: 'Blue in Green LP',
-    artist: 'Blue in Green',
-    releaseInfo: '2007',
-    albumCover: '/assets/images/album_covers/bin_album.png',
-    slug: 'blue-in-green',
-    songs: [
-        { title: 'Masquerade', duration: '161.71', audioSrc: '/assets/music/blue-in-green/Blue in Green -  Masquerade _ The Night Watch.mp3' , songNum: '1'},
-        { title: 'Get Back', duration: '103.96', audioSrc: '/assets/music/blue-in-green/Blue in Green - Get Back (To Soulful Music).mp3' , songNum: '2'},
-        { title: 'Rainy Streets', duration: '268.45', audioSrc: '/assets/music/blue-in-green/Blue in Green - Rainy Streets.mp3' , songNum: '3'},
-        { title: 'Rendezvous', duration: '153.14', audioSrc: '/assets/music/blue-in-green/Blue in Green - Rendezvous (Original Mix).mp3' , songNum: '4'},
-        { title: 'Voyage', duration: '374.22', audioSrc: '/assets/music/blue-in-green/Blue in Green - Voyage (Original Mix).mp3' , songNum: '5'}
-    ]
   } ,{
     title: 'Departure',
     artist: 'Nujabes',
