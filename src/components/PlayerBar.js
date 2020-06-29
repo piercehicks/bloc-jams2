@@ -3,7 +3,9 @@ import React, { Component } from 'react';
  class PlayerBar extends Component {
    render() {
      return (
+       
        <section className="player-bar">
+         <br />
          <section id="buttons">
            <button id="previous" onClick={this.props.handlePrevClick} className="album-song-button">
              <span className="ion-skip-backward"><ion-icon name="play-skip-back"></ion-icon></span>
