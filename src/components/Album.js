@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import albumData from './../data/albums';
 import PlayerBar from './PlayerBar';
- 
-/* import '../App.css';  */
  import '../styles/album.css'; 
 
 class Album extends Component {
@@ -113,19 +111,19 @@ class Album extends Component {
   render() {
     return (
        
-      <section /*className="album" */ /*className="clearfix"*/ /*OR */className="album-view container narrow">
-        <section /* id="album-info" */ className="column half">
-        <img /* id="album-cover-art" */ className="album-cover-art" src={this.state.album.albumCover} alt={this.state.album.title}/>
+      <section className="album-view container narrow">
+        <section className="column half">
+        <img className="album-cover-art" src={this.state.album.albumCover} alt={this.state.album.title}/>
            <div class="album-view-details column half" /*className="album-details"*/>
-           <h1 /*id="album-title"*/ className="album-view-title"> {this.state.album.title} </h1>
-             <h2 /*className="artist" */ className="album-view-artist"> {this.state.album.artist} </h2>
-             <div /*id="release-info"*/ className="album-view-release-info" >{this.state.album.releaseInfo}</div>
+           <h1  className="album-view-title"> {this.state.album.title} </h1>
+             <h2 className="album-view-artist"> {this.state.album.artist} </h2>
+             <div className="album-view-release-info" >{this.state.album.releaseInfo}</div>
            </div>
          </section>
          
-          <table /*id="song-list"*/ className="album-view-song-list">
+          <table className="album-view-song-list">
             <colgroup>
-              <col id="song-number-column" />
+              <col id="song-number-column" className="song-item-number"/>
               <col id="song-title-column" />
               <col id="song-duration-column" />
             </colgroup>  

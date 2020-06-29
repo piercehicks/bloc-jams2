@@ -22,7 +22,7 @@ export default [{
         { title: 'Ole', duration: '103.96', audioSrc: '/assets/music/nujabes/Fat Jon - Olé.mp3' , songNum: '2'},
         { title: 'Aruarian Dance', duration: '268.45', audioSrc: '/assets/music/nujabes/Nujabes - Aruarian Dance.mp3' , songNum: '3'},
         { title: 'Mystline', duration: '153.14', audioSrc: '/assets/music/nujabes/Nujabes - Mystline.mp3' , songNum: '4'},
-        { title: 'Space Between 2 World', duration: '374.22', audioSrc: '/assets/music/nujabes/Nujabes - Mystline.mp3' , songNum: '5'}
+        { title: 'Space Between', duration: '374.22', audioSrc: '/assets/music/nujabes/Nujabes - Mystline.mp3' , songNum: '5'}
     ]
   },{
       title: 'SALES LP',

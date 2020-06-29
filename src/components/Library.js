@@ -1,8 +1,7 @@
 import React,{ Component } from 'react';
 import albumData from './../data/albums';
 import { Link } from 'react-router-dom';
-/* import '../styles/main.css'; */
- import '../styles/collection.css';
+import '../styles/collection.css';
 
 class Library extends Component { 
   constructor(props) {
@@ -11,7 +10,7 @@ class Library extends Component {
   }
   render() {
    return ( 
-     <section /*className='library'*/ className="album-covers container">
+     <section className="album-covers container">
        
        {
           this.state.albums.map( (album, index) => 
